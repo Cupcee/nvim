@@ -24,7 +24,7 @@ autocmd BufReadPost *
      \ endif
 
 " load theme 
-source theme.vim
+source $HOME/.config/nvim/theme.vim
 
 " load coc.nvim config
-source coc.init.vim
+source $HOME/.config/nvim/coc.init.vim
