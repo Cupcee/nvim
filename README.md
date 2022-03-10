@@ -9,6 +9,7 @@ is useful for editing configuration files or when ssh connecting to a remote mac
 
 * `neovim`
 * `vim-plug`
+* (optional) `iterm2`
 
 ## LSP support
 
@@ -18,3 +19,9 @@ is useful for editing configuration files or when ssh connecting to a remote mac
   * `coc-emmet`
   * `coc-pairs`
   * `coc-markdownlint`
+  * `coc-vimlsp`
+
+## Optional
+* Import the seoul256 colortheme for nice match with neovim theme
+* Install `typewritten` oh-my-zsh theme (requires `ohmyzsh`)
+  * Run `npm install -g typewritten`, restart iterm
