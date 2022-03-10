@@ -25,3 +25,4 @@ is useful for editing configuration files or when ssh connecting to a remote mac
 * Import the seoul256 colortheme for nice match with neovim theme
 * Install `typewritten` oh-my-zsh theme (requires `ohmyzsh`)
   * Run `npm install -g typewritten`, restart iterm
+  * Set `TYPEWRITTEN_RELATIVE_PATH="adaptive"` in `.zshrc` for relative path
