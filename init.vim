@@ -16,6 +16,9 @@ call plug#end()
 " remappings
 inoremap fd <Esc>
 nnoremap <C-f> <C-u>
+nmap <C-Down> }
+nmap <C-Up> {
+
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
