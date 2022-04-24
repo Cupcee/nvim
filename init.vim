@@ -4,8 +4,14 @@ Plug 'tpope/vim-sensible'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'shinchu/lightline-seoul256.vim'
+Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
+
+" Space is <leader>
+nnoremap <SPACE> <Nop>
+nnoremap <SPACE>o <Nop>
+let g:mapleader = " "
 
 " general
 :set relativenumber
@@ -19,6 +25,9 @@ map <C-f> <C-u>
 map <C-Down> }
 map <C-Up> {
 
+" NERDTree
+nnoremap <leader>op :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
