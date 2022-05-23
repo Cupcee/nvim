@@ -2,8 +2,9 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'itchyny/lightline.vim'
-Plug 'junegunn/seoul256.vim'
-Plug 'shinchu/lightline-seoul256.vim'
+"Plug 'junegunn/seoul256.vim'
+"Plug 'shinchu/lightline-seoul256.vim'
+Plug 'altercation/vim-colors-solarized', { 'as': 'solarized' }
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
